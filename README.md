@@ -19,9 +19,9 @@ To capture the Snapshot you must enter the IP of the cam, the user of the Onvif 
     password Onvif:             msg.password,
 
 OutPut:
-ONVIF Snapshot returns msg.payload in the form of a base64 encoded image to use with a Node-RED Dashboard template
+ONVIF Snapshot returns msg.payload in the form of a base64 encoded image to use with a Node-RED Dashboard template.
  
 
- Snapshot = msg.payload
+ Snapshot: msg.payload,
 
 
