@@ -56,7 +56,7 @@ module.exports = (RED) => {
         //     }
         // });
     }
-    RED.nodes.registerType("ONVIF Snapshot", snapshot);
+    RED.nodes.registerType("ONVIF Aguiar Snapshot", snapshot);
 
     RED.httpAdmin.post("/onvif-snapshot/:id/:state", RED.auth.needsPermission("onvif-snapshot.write"), (req, res) => {
         var node = RED.nodes.getNode(req.params.id);
